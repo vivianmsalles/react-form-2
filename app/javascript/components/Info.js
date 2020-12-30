@@ -17,7 +17,7 @@ export class Info extends Component {
     return (
       <MuiThemeProvider>
         <React.Fragment>
-          <AppBar title="Enter User Details"/>
+          <AppBar title="Infos"/>
           <TextField
             hintText="Enter your first name"
             floatingLabelText="First Name"

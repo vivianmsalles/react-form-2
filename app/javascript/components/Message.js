@@ -24,16 +24,16 @@ export class Message extends Component {
     return (
       <MuiThemeProvider>
         <React.Fragment>
-          <AppBar title="Enter Your Message"/>
+          <AppBar title="Message"/>
           <TextField
-            hintText="Enter your content"
-            floatingLabelText="Message Content"
+            hintText="Message content"
+            floatingLabelText="Your text goes here..."
             onChange = {handleChange('content')}
             defaultValue = {values.content}
           />
           <br/>
           <RaisedButton
-            label="Continue"
+            label="Submit"
             primary={true}
             style={styles.button}
             onClick={this.continue}
